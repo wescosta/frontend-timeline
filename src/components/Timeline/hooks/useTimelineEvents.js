@@ -34,7 +34,7 @@ export const useTimelineEvents = () => {
   const [totalEventsCount, setTotalEventsCount] = useState(0);
 
   useEffect(() => {
-    const sortedEvents = sortTimelineEvents(timelineItems);
+    const sortedEvents = sortTimelineEvents(timelineItems) ?? [];
     const groupedEvents = groupEventsByEndDate(sortedEvents);
 
     setGroupedEvents(groupedEvents);

@@ -10,7 +10,8 @@ export const TimelineEventDetails = ({ id, name, end, onUpdate, onClose }) => {
   };
 
   return (
-    <div className="event-details">
+    <div className="timeline-event-details">
+      <h4 className="timeline-event-details-title">Event Details</h4>
       <div>
         <label>
           Name:
@@ -31,7 +32,7 @@ export const TimelineEventDetails = ({ id, name, end, onUpdate, onClose }) => {
           />
         </label>
       </div>
-      <div className="event-details-actions">
+      <div className="timeline-event-details-actions">
         <button onClick={handleUpdate}>Update</button>
       </div>
     </div>
