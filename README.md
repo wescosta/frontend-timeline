@@ -29,3 +29,10 @@ Finally, I tweaked the CSS, refactored the code for better readability and added
 
 ## How you would test this if you had more time
 - I would add visual tests possibly with Storybook to ensure look and feel remain consistant while updating
+
+### Note
+You may need to execute this line before running
+
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
