@@ -1,0 +1,34 @@
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dialog-content {
+  background: white;
+  padding: 24px;
+  margin: 16px;
+  border-radius: 8px;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.dialog-close {
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  background: transparent;
+}
