@@ -1,4 +1,5 @@
 # Timeline POC
+![screenshot](https://github.com/user-attachments/assets/006067b1-9f0e-42e8-ba2d-cf13d9680345)
 
 ## How long you spent on the assignment
 About 5 hours. ~3 hours implementing. 2 hours testing.
